@@ -1,0 +1,11 @@
+
+
+
+
+
+
+@media screen (max-width: 768px){
+    #sidebar {
+        left: -400px;
+    }
+}
