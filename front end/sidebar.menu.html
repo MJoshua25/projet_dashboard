@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" >
+	
+	<link rel="stylesheet" href="https://netdna.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="css/sidebar.menu.css">
+	<link rel="stylesheet" href="css/sidebar.menu.dark.css">
+	
+	<link rel="stylesheet" href="css/sidebar.css">
+	<title>Dashboard</title>
+</head>
+   <style>
+         a{
+			 color: white;
+			 text-decoration: none;
+		 }
+		 .list-title{
+			 color: white;
+		 }
+   </style>
+<body class="body body-lighten" >
+
+	<div class="d-flex" id="wrapper" >
+
+
+		<!-- sidebar -->
+		<div class="sidebar" style="background-color: rgb(36, 71, 95);">
+
+			<!-- sidebar menu -->
+			<div class="sidebar-menu">
+
+				<!-- menu -->
+				<ul class="list list-unstyled list-scrollbar">
+
+				
+					<!-- multi-level dropdown menu -->
+					<li class="list-item">
+						<p class="list-title text-uppercase">Dashboard</p>
+						<ul class="list-unstyled">
+							<li><a href="#" class="list-link"><span class="list-icon"><i class="fa fa-home" aria-hidden="true"></i></span>ACCEUIL</a></li>
+							<li><a href="#" class="list-link link-arrow link-current"><span class="list-icon"><i class="fa fa-user" aria-hidden="true"></i></span>Menu</a>
+								<ul class="list-unstyled list-hidden">
+									
+									
+								    <li><a href="#" class="list-link"><span class="list-icon"><i class="fa fa-table" aria-hidden="true"></i></span>Liste</a></li>
+									<li><a href="#" class="list-link"><span class="list-icon"><i class="fa fa-plus" aria-hidden="true"></i></span>Ajouter</a></li>
+									<li><a href="#" class="list-link"><span class="list-icon"><i class="fa fa-trash" aria-hidden="true"></i></span>Supprimer</a></li>
+								</ul>
+								<li>
+										<a href="#" class="list-link link-arrow link-current"><span class="list-icon"><i class="fa fa-shopping-cart" aria-hidden="true"></i></span>Commande</a>
+										<ul class="list-unstyled list-hidden">
+											<li><a href="#" class="list-link"><span class="list-icon"><i class="fa fa-spinner" aria-hidden="true" style="color:orange;"></i></span>En cours</a></li>
+											<li><a href="#" class="list-link link-current"><span class="list-icon"><i class="fa fa-check" aria-hidden="true" style="color:green;"></i></span>Livrées</a></li>
+										</ul>
+									</li>
+							<li><a href="#" class="list-link link-arrow link-current"><span class="list-icon"><i class="fa fa-user" aria-hidden="true"></i></span>Elèves</a>
+								<ul class="list-unstyled list-hidden">
+									
+									<li><a href="#" class="list-link"><span class="list-icon"><i class="fa fa-toggle-on" aria-hidden="true" style="color:green;"></i></span>En ligne</a></li>
+								    <li><a href="#" class="list-link"><span class="list-icon"><i class="fa fa-table" aria-hidden="true"></i></span>Liste</a></li>
+									<li><a href="#" class="list-link"><span class="list-icon"><i class="fa fa-plus" aria-hidden="true"></i></span>Ajouter</a></li>
+									<li><a href="#" class="list-link"><span class="list-icon"><i class="fa fa-trash" aria-hidden="true"></i></span>Supprimer</a></li>
+									
+								</ul>
+							</li>
+
+
+							<!-- notice info -->
+							<li><a href="#" class="list-link link-arrow link-current"><span class="list-icon"><i class="fa fa-user" aria-hidden="true"></i></span>Administrateurs</a>
+								<ul class="list-unstyled list-hidden">
+									
+									
+								    <li><a href="#" class="list-link"><span class="list-icon"><i class="fa fa-table" aria-hidden="true"></i></span>Liste</a></li>
+									<li><a href="#" class="list-link"><span class="list-icon"><i class="fa fa-plus" aria-hidden="true"></i></span>Ajouter</a></li>
+									<li><a href="#" class="list-link"><span class="list-icon"><i class="fa fa-trash" aria-hidden="true"></i></span>Supprimer</a></li>
+						        </ul>
+						   </li>
+						</ul>
+					
+
+					
+
+			
+				</ul>
+			</div>
+		</div>
+
+		<!-- website content -->
+		<div class="content">
+
+			<!-- navbar top fixed -->
+			<nav class="navbar navbar-expand-lg fixed-top navbar-lighten">
+
+				<!-- navbar title -->
+				<a class="navbar-brand navbar-link" href="#">Dashboard</a>
+
+				<!-- navbar sidebar menu toggle -->
+				<span class="navbar-text">
+					<a href="#" id="sidebar-toggle" class="navbar-bars">
+						<i class="fa fa-bars" aria-hidden="true"></i>
+					</a>
+				</span>
+
+				<!-- navbar dropdown menu-->
+				<div class="collapse navbar-collapse">
+					<div class="dropdown dropdown-logged dropdown-logged-lighten">
+						<a href="#" data-toggle="dropdown" class="dropdown-logged-toggle dropdown-link">
+							<span class="dropdown-user float-left">Administrateur</span>
+							<img src="img/avata.png" alt="" class="dropdown-avatar">
+						</a>
+						<div class="dropdown-menu dropdown-logged-menu dropdown-menu-right border-0 dropdown-menu-lighten">
+							<div class="dropdown-menu-arrow"></div>
+							<a class="dropdown-item dropdown-logged-item" href="#"><i class="fa fa-user-o" aria-hidden="true"></i>Profil</a>
+							
+							<a class="dropdown-item dropdown-logged-item" href="#"><i class="fa fa-key" aria-hidden="true"></i>Modifier</a>
+							<div class="dropdown-divider border-light"></div>
+							<a class="dropdown-item dropdown-logged-item" href="#"><i class="fa fa-sign-out" aria-hidden="true"></i>Deconnection</a>
+						</div>
+					</div>
+				</div>
+			</nav>
+
+			<!-- content container -->
+			<div class="container-fluid">
+
+				<!-- one box -->
+				<div class="content-box mb-3 content-lighten">
+					
+				</div>
+
+				<!-- two box -->
+				<div class="row">
+					<div class="col-sm-6 mb-3 col-md-6">
+						<div class="content-box content-lighten">
+							
+						</div>
+					</div>
+					<div class="col-sm-6 mb-3 col-md-6">
+						<div class="content-box content-lighten">
+						
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	
+
+
+
+
+
+
+	<script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" ></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" ></script>
+<script src="js/sidebar.menu.js"></script>
+</body>
+
+</html>
